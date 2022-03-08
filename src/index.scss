@@ -1,1 +1,25 @@
+$primary: #132257;
+$secondary: #FFFFFF;
+$info: #D4AF37;
+
 @import '~bootstrap/scss/bootstrap';
+
+.navbar .navbar-nav .nav-link:hover {
+  // background-color: $primary;
+  color: $info;
+}
+
+.navbar .navbar-nav {
+  padding: 0 0.2em;
+}
+
+.navbar .navbar-brand .logo_image {
+  padding: 0.01em 0.01em .25em 0.01em;
+  background: white;
+  font-weight: bold;
+}
+
+.navbar .navbar-brand .logo {
+  padding: 0.8em 0.8em 1em 0.5em;
+  // font-weight: bold;
+}
